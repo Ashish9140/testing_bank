@@ -1,0 +1,71 @@
+.profile-modal{
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.profile-modal .input-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-modal .input-profile{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px 0px 2px 0px;
+}
+
+.profile-modal .input-profile label{
+    margin-bottom: 5px;
+}
+
+.profile-modal .input-group div{
+    margin: 10px 0px 2px 0px;
+}
+
+.profile-modal .input-group label{
+    margin-bottom: 5px;
+}
+
+.profile-modal .input-group input,.profile-modal .input-group select,.profile-modal .input-profile input,.profile-modal .input-group textarea{
+    width: 95%;
+    background: #f1f5f9;
+    height: 30px;
+    padding: 5px 5px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.profile-modal .input-profile input{
+    width: 97.2%;
+}
+
+.profile-modal .profile-modal-btn button {
+    padding: 6px;
+    margin: 5px;
+    margin-left: 15px;
+    background-color: #DD2F6E;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid #DD2F6E;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:900px) {
+    .profile-modal .input-group{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
+
+.close-modal{
+    display: inline-block;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+}
